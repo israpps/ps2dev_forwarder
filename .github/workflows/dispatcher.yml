@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+  workflow _dispatch:
   repository_dispatch:
     types: [run_build]
 
